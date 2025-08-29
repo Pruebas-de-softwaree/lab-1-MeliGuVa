@@ -29,12 +29,12 @@ class UserManager:
 if __name__ == "__main__":
     #Caso de prueba 1
     user_manager = UserManager()
-    for i in range(500):
+    for i in range(1000):
          user_manager.add_user(i,f"Yo soy el num:{i}")
 
     #Caso de prueba 2
-    user_manager.add_user(1, "Hola")
-    user_manager.add_user(1, "Adiós")
+    # user_manager.add_user(1, "Hola")
+    # user_manager.add_user(1, "Adiós")
 
     #Caso de prueba 3
     #user = user_manager.find_user(1)
@@ -43,6 +43,16 @@ if __name__ == "__main__":
     #user_manager.delete_user(1)
 
     #Caso de prueba 5
-    print(user_manager.get_all_names())
+    #print(user_manager.get_all_names())
+
+    #Caso de prueba 6
+    #average = user_manager.average_user_id()
+
+    #Caso de prueba 7
+    users = user_manager.get_all_names()
+    average = user_manager.average_user_id()
+    user_manager.delete_user(2)
+
+    print(user_manager.find_user(2))
 
     print("end")
