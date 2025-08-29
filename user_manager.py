@@ -49,10 +49,14 @@ if __name__ == "__main__":
     #average = user_manager.average_user_id()
 
     #Caso de prueba 7
-    users = user_manager.get_all_names()
-    average = user_manager.average_user_id()
-    user_manager.delete_user(2)
+    # users = user_manager.get_all_names()
+    # average = user_manager.average_user_id()
+    # user_manager.delete_user(2)
 
-    print(user_manager.find_user(2))
+    # print(user_manager.find_user(2))
+
+    #Caso de prueba 8
+    print(user_manager.find_user(350))
+
 
     print("end")
