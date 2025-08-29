@@ -56,7 +56,12 @@ if __name__ == "__main__":
     # print(user_manager.find_user(2))
 
     #Caso de prueba 8
-    print(user_manager.find_user(350))
+    #print(user_manager.find_user(350))
 
+    #Caso de prueba 9
+    user_manager.add_user(1, "Hola")
+    user_manager.add_user(1, "Adiós")
+
+    user_manager.delete_user(1)    
 
     print("end")
