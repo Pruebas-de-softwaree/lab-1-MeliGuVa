@@ -37,6 +37,9 @@ if __name__ == "__main__":
     user_manager.add_user(1, "Adiós")
 
     #Caso de prueba 3
-    user = user_manager.find_user(1)
+    #user = user_manager.find_user(1)
+
+    #Caso de prueba 4
+    #user_manager.delete_user(1)
 
     print("end")
